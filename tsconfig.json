@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@doc": ["doc/"],
+      "@doc/decorator": ["doc/decorator"],
+      "@config": ["config/"],
+      "@utils": ["utils/"],
+      "@entity": ["common/entity/"],
+      "@enum": ["common/enum/"],
+      "@pipe": ["common/pipe/"],
+      "@middleware": ["common/middleware/"],
+      "@interceptor": ["common/interceptor/"],
+      "@dto": ["common/dto/"],
+      "@interface": ["common/interface/"],
+      "@guard": ["common/guard/"],
+      "@decorator": ["common/decorator/"]
+    }
+  }
+}
